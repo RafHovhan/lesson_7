@@ -11,11 +11,6 @@ for i in range(len(a)):
 
 for j in range(len(d)):
     if d[0] == d[j]:
-        b = True
+        print('Парам пам-пам')
     else:
-        b = False
-
-if b == True:
-    print('Парам пам-пам')
-elif b == False:
-    print('Пам парам')
+        print('Пам парам')
